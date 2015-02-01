@@ -8,7 +8,7 @@
 </p>
 
 <p align="center" class='center' style="text-align:center">
-  <img src="https://raw.githubusercontent.com/TheRole/TheRoleApi/master/docs/the_role.png" alt="TheRole. Authorization gem for Ruby on Rails with Administrative interface">
+  <img src="https://raw.githubusercontent.com/TheRole/docs/master/images/the_role.png" alt="TheRole. Authorization gem for Ruby on Rails with Administrative interface">
 </p>
 
 <p align="center" class='center' style="text-align:center">
