@@ -115,14 +115,4 @@ User.first.admin? # => true
 
 <hr>
 
-Now you can install GUI for TheRole
-
-<div align="center" class='center' style="text-align:center">
-  <a href="https://github.com/TheRole/docs/blob/master/TheRoleGuiInstallation.md">
-    <img src="https://raw.githubusercontent.com/TheRole/docs/master/images/install_gui.png" alt="TheRole GUI. Installation">
-  </a>
-</div>
-
-<hr>
-
 [[ Back to TheRole ]](https://github.com/the-teacher/the_role)

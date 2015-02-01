@@ -4,6 +4,19 @@
 
 ## TheRole GUI Installation
 
+<table>
+<tr>
+  <td>
+    <b>http://localhost:3000/admin/roles</b>
+  </td>
+</tr>
+<tr>
+  <td>
+    <img src="https://raw.githubusercontent.com/TheRole/docs/master/images/gui.png?2" alt="TheRole GUI">
+  </td>
+</tr>
+</table>
+
 #### 0. Gemfile
 
 ```ruby
