@@ -2,6 +2,8 @@
 0. [[ Back to TheRole API ]](https://github.com/TheRole/the_role_api)
 0. [[ Back to TheRole GUI ]](https://github.com/TheRole/the_role_management_panel)
 
+<hr>
+
 ## TheRole Limitations
 
 TheRole uses few conventions over configuration.
@@ -12,10 +14,6 @@ You have to know about them before using of TheRole:
 0. Only `User` model supported              <a href="https://github.com/TheRole/the_role_api/blob/master/docs/Limitations.md#only-user-model-supported">Why?</a>
 0. Based on `curent_user` method            <a href="https://github.com/TheRole/the_role_api/blob/master/docs/Limitations.md#based-on-curent_user-method">Why?</a>
 0. Role stored in database as a JSON String <a href="https://github.com/TheRole/the_role_api/blob/master/docs/Limitations.md#role-stored-in-database-as-a-json-string">Why?</a>
-
-<hr>
-<hr>
-<hr>
 
 ### `User` **has only one** `Role`
 
@@ -47,6 +45,8 @@ There are many databases which provide special native ways to work with JSON dat
 But TheRole convert hashes into JSON string and store it into database with plain TEXT value.
 
 TheRole uses this approach because it requires less of code. And it makes maintaining simpler.
+
+<hr>
 
 0. [[ Back to TheRole ]](https://github.com/the-teacher/the_role)
 0. [[ Back to TheRole API ]](https://github.com/TheRole/the_role_api)

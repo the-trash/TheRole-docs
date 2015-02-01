@@ -2,6 +2,8 @@
 0. [[ Back to TheRole API ]](https://github.com/TheRole/the_role_api)
 0. [[ Back to TheRole GUI ]](https://github.com/TheRole/the_role_management_panel)
 
+<hr>
+
 ## Integration with Rails controllers
 
 <i>application_controller.rb</i>
@@ -54,6 +56,8 @@ Please, learn simple source code of restriction methods:
 0. <a href="https://github.com/TheRole/the_role_api/blob/master/app/controllers/concerns/the_role/controller.rb#L20">owner_required</a>
 
 In this case `login_required` is a method `:authenticate_user!` from Devise gem
+
+<hr>
 
 0. [[ Back to TheRole ]](https://github.com/the-teacher/the_role)
 0. [[ Back to TheRole API ]](https://github.com/TheRole/the_role_api)

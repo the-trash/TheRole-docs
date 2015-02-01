@@ -2,6 +2,8 @@
 0. [[ Back to TheRole API ]](https://github.com/TheRole/the_role_api)
 0. [[ Back to TheRole GUI ]](https://github.com/TheRole/the_role_management_panel)
 
+<hr>
+
 ## TheRole. Installation
 
 #### 0. Gemfile
@@ -112,6 +114,18 @@ User.first.admin? # => true
     Thanks for using TheRole!
   </b>
 </p>
+
+<hr>
+
+Now you can install GUI for TheRole
+
+<div align="center" class='center' style="text-align:center">
+  <a href="https://github.com/TheRole/docs/blob/master/TheRoleGuiInstallation.md">
+    <img src="https://raw.githubusercontent.com/TheRole/docs/master/images/install_gui.png" alt="TheRole GUI. Installation">
+  </a>
+</div>
+
+<hr>
 
 0. [[ Back to TheRole ]](https://github.com/the-teacher/the_role)
 0. [[ Back to TheRole API ]](https://github.com/TheRole/the_role_api)

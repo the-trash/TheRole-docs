@@ -2,6 +2,8 @@
 0. [[ Back to TheRole API ]](https://github.com/TheRole/the_role_api)
 0. [[ Back to TheRole GUI ]](https://github.com/TheRole/the_role_management_panel)
 
+<hr>
+
 ## TheRole API
 
 ### User
@@ -123,6 +125,8 @@ new_role_hash = {
 # delete a rule in section
 @role.delete_rule(:pages, :show)
 ```
+
+<hr>
 
 0. [[ Back to TheRole ]](https://github.com/the-teacher/the_role)
 0. [[ Back to TheRole API ]](https://github.com/TheRole/the_role_api)
