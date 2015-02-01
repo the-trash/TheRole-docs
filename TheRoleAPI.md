@@ -1,6 +1,6 @@
-0. [[ Back to TheRole ]](https://github.com/the-teacher/the_role])
-0. [[ Back to TheRole API ]](https://github.com/TheRole/the_role_api])
-0. [[ Back to TheRole GUI ]](https://github.com/TheRole/the_role_management_panel])
+0. [[ Back to TheRole ]](https://github.com/the-teacher/the_role)
+0. [[ Back to TheRole API ]](https://github.com/TheRole/the_role_api)
+0. [[ Back to TheRole GUI ]](https://github.com/TheRole/the_role_management_panel)
 
 ## TheRole API
 
@@ -124,6 +124,6 @@ new_role_hash = {
 @role.delete_rule(:pages, :show)
 ```
 
-0. [[ Back to TheRole ]](https://github.com/the-teacher/the_role])
-0. [[ Back to TheRole API ]](https://github.com/TheRole/the_role_api])
-0. [[ Back to TheRole GUI ]](https://github.com/TheRole/the_role_management_panel])
+0. [[ Back to TheRole ]](https://github.com/the-teacher/the_role)
+0. [[ Back to TheRole API ]](https://github.com/TheRole/the_role_api)
+0. [[ Back to TheRole GUI ]](https://github.com/TheRole/the_role_management_panel)

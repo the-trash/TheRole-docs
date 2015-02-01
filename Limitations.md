@@ -1,6 +1,6 @@
-0. [[ Back to TheRole ]](https://github.com/the-teacher/the_role])
-0. [[ Back to TheRole API ]](https://github.com/TheRole/the_role_api])
-0. [[ Back to TheRole GUI ]](https://github.com/TheRole/the_role_management_panel])
+0. [[ Back to TheRole ]](https://github.com/the-teacher/the_role)
+0. [[ Back to TheRole API ]](https://github.com/TheRole/the_role_api)
+0. [[ Back to TheRole GUI ]](https://github.com/TheRole/the_role_management_panel)
 
 ## TheRole Limitations
 
@@ -48,6 +48,6 @@ But TheRole convert hashes into JSON string and store it into database with plai
 
 TheRole uses this approach because it requires less of code. And it makes maintaining simpler.
 
-0. [[ Back to TheRole ]](https://github.com/the-teacher/the_role])
-0. [[ Back to TheRole API ]](https://github.com/TheRole/the_role_api])
-0. [[ Back to TheRole GUI ]](https://github.com/TheRole/the_role_management_panel])
+0. [[ Back to TheRole ]](https://github.com/the-teacher/the_role)
+0. [[ Back to TheRole API ]](https://github.com/TheRole/the_role_api)
+0. [[ Back to TheRole GUI ]](https://github.com/TheRole/the_role_management_panel)
