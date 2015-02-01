@@ -1,6 +1,4 @@
-0. [[ Back to TheRole ]](https://github.com/the-teacher/the_role)
-0. [[ Back to TheRole API ]](https://github.com/TheRole/the_role_api)
-0. [[ Back to TheRole GUI ]](https://github.com/TheRole/the_role_management_panel)
+[[ Back to TheRole ]](https://github.com/the-teacher/the_role)
 
 <hr>
 
@@ -48,6 +46,4 @@ TheRole uses this approach because it requires less of code. And it makes mainta
 
 <hr>
 
-0. [[ Back to TheRole ]](https://github.com/the-teacher/the_role)
-0. [[ Back to TheRole API ]](https://github.com/TheRole/the_role_api)
-0. [[ Back to TheRole GUI ]](https://github.com/TheRole/the_role_management_panel)
+[[ Back to TheRole ]](https://github.com/the-teacher/the_role)
