@@ -80,6 +80,10 @@ cd ~/my/gems/TheRole/DummyApp
 RAILS_ENV=test rspec --format documentation
 ```
 
-#### 9. Send a Pull Request
+#### 9. Pull Request
 
 Send a Pull Request =)
+
+<hr>
+
+[[ Back to TheRole ]](https://github.com/the-teacher/the_role)
