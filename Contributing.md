@@ -19,7 +19,7 @@ git clone https://github.com/TheRole/the_role_api
 git clone https://github.com/TheRole/the_role_management_panel
 ```
 
-You Editor file browser can looks like this
+File browser in your Editor can looks like this
 
 <p align="center" class='center' style="text-align:center">
   <img src="https://raw.githubusercontent.com/TheRole/docs/master/images/editor.png" alt="TheRole. Authorization gem for Ruby on Rails with Administrative interface">
@@ -66,17 +66,13 @@ cd ~/my/gems/TheRole/the_role_api
 git checkout -b "mongo_version"
 ```
 
-#### 7. Create new branch with feature and make some magic
+#### 7. Make some magic
 
-```
-git checkout -b "mongo_version"
-```
-
-Write code, have fun!
-
-You can see you results in DummyApp
+Write code, have fun! You can see you results in DummyApp
 
 #### 8. Test your feature
+
+Test new code with DummyApp specs
 
 ```sh
 cd ~/my/gems/TheRole/DummyApp
