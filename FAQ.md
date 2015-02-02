@@ -4,12 +4,12 @@
 
 ## TheRole. FAQ
 
-
-0. [Why TheRole was created?](#why-therole-was-created)
-0. [Who is Administrator?](#who-is-administrator)
-0. [Who is Moderator?](#who-is-moderator)
-0. [Who is Owner?](#who-is-owner)
-0. [Virtual sections and rules](#virtual-sections-and-rules)
+0. [Why TheRole was created?](https://github.com/TheRole/docs/blob/master/FAQ.md#why-therole-was-created)
+0. [Who is Administrator?](https://github.com/TheRole/docs/blob/master/FAQ.md#who-is-administrator)
+0. [Who is Moderator?](https://github.com/TheRole/docs/blob/master/FAQ.md#who-is-moderator)
+0. [Who is Owner?](https://github.com/TheRole/docs/blob/master/FAQ.md#who-is-owner)
+0. [What does it mean semantic?](https://github.com/TheRole/docs/blob/master/FAQ.md#what-does-it-mean-semantic)
+0. [Virtual sections and rules](https://github.com/TheRole/docs/blob/master/FAQ.md#virtual-sections-and-rules)
 
 #### Why TheRole was created?
 
@@ -65,6 +65,50 @@ Administrator is owner of any object in system.
 Moderator of pages is owner of any page.
 
 User is owner of objects, when **Object#user_id == User#id**.
+
+#### Virtual sections and rules
+
+Usually, we use real names of controllers and actions for names of sections and rules:
+
+```ruby
+@user.has_role?(:pages, :show)
+```
+
+But, also, you can use virtual names of sections, and virtual names of section's rules.
+
+```ruby
+@user.has_role?(:twitter, :button)
+@user.has_role?(:facebook, :like)
+```
+
+And you can use them as well as other access rules.
+
+#### What does semantic mean?
+
+Semantic - the science of meaning. Humans should be able to quickly understand what is happening in a role system.
+
+Look at the next Role hash. If you can understand access rules - this authorization system is semantic.
+
+```ruby
+role = {
+  'pages' => {
+    'index'   => true,
+    'show'    => true,
+    'new'     => false,
+    'edit'    => false,
+    'update'  => false,
+    'destroy' => false
+  },
+  'articles' => {
+    'index'  => true,
+    'show'   => true
+  },
+  'twitter'  => {
+    'button' => true,
+    'follow' => false
+  }
+}
+```
 
 #### Virtual sections and rules
 
