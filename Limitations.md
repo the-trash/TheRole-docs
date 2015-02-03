@@ -8,10 +8,11 @@ TheRole uses few conventions over configuration.
 It gives simplicity of code, but also some limitations.
 You have to know about them before using of TheRole:
 
-0. `User` **has only one** `Role`           <a href="https://github.com/TheRole/the_role_api/blob/master/docs/Limitations.md#user-has-only-one-role">Why?</a>
-0. Only `User` model supported              <a href="https://github.com/TheRole/the_role_api/blob/master/docs/Limitations.md#only-user-model-supported">Why?</a>
-0. Based on `curent_user` method            <a href="https://github.com/TheRole/the_role_api/blob/master/docs/Limitations.md#based-on-curent_user-method">Why?</a>
-0. Role stored in database as a JSON String <a href="https://github.com/TheRole/the_role_api/blob/master/docs/Limitations.md#role-stored-in-database-as-a-json-string">Why?</a>
+0. [User has only one Role](https://github.com/TheRole/docs/blob/master/Limitations.md#user-has-only-one-role)
+0. [Only `User` model supported](https://github.com/TheRole/docs/blob/master/Limitations.md#only-user-model-supported)
+0. [Based on `curent_user` method](https://github.com/TheRole/docs/blob/master/Limitations.md#based-on-curent_user-method)
+0. [Role stored in database as a JSON String](https://github.com/TheRole/docs/blob/master/Limitations.md#role-stored-in-database-as-a-json-string)
+0. [Few words about Ownership](https://github.com/TheRole/docs/blob/master/Ownership.md)
 
 ### `User` **has only one** `Role`
 
@@ -43,6 +44,10 @@ There are many databases which provide special native ways to work with JSON dat
 But TheRole convert hashes into JSON string and store it into database with plain TEXT value.
 
 TheRole uses this approach because it requires less of code. And it makes maintaining simpler.
+
+### Few words about Ownership
+
+[Few words about Ownership](https://github.com/TheRole/docs/blob/master/Ownership.md)
 
 <hr>
 

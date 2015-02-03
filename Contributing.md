@@ -2,7 +2,7 @@
 
 <hr>
 
-## Contributing.md
+## Contributing
 
 #### 0. Prepare folder
 
@@ -68,7 +68,7 @@ git checkout -b "mongo_version"
 
 #### 7. Make some magic
 
-Write code, have fun! You can see you results in DummyApp
+Write code, have fun! You can see your results in DummyApp
 
 #### 8. Test your feature
 

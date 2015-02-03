@@ -66,23 +66,6 @@ Moderator of pages is owner of any page.
 
 User is owner of objects, when **Object#user_id == User#id**.
 
-#### Virtual sections and rules
-
-Usually, we use real names of controllers and actions for names of sections and rules:
-
-```ruby
-@user.has_role?(:pages, :show)
-```
-
-But, also, you can use virtual names of sections, and virtual names of section's rules.
-
-```ruby
-@user.has_role?(:twitter, :button)
-@user.has_role?(:facebook, :like)
-```
-
-And you can use them as well as other access rules.
-
 #### What does semantic mean?
 
 Semantic - the science of meaning. Humans should be able to quickly understand what is happening in a role system.
