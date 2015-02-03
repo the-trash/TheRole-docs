@@ -27,11 +27,10 @@ class PagesController < ApplicationController
 
   # !!! ATTENTION !!!
   #
-  # `@owner_check_object` variable have to be instantiated
-  # before check ownership via `owner_required` method.
+  # TheRole: You have to set object for ownership check
+  # before check ownership via `owner_required` method
+  # You can do it with `for_ownership_check(@page)` in `set_page`
   #
-  # You have to instantiate `@owner_check_object` in `set_page` method
-  # See code below
 
   before_action :set_page,       only: [ :edit, :update, :destroy ]
   before_action :owner_required, only: [ :edit, :update, :destroy ]
@@ -42,7 +41,7 @@ class PagesController < ApplicationController
     @page = Page.find params[:id]
 
     # TheRole: object for ownership checking
-    @owner_check_object = @page
+    for_ownership_check(@page)
   end
 end
 ```

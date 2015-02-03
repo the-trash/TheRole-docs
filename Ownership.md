@@ -99,6 +99,67 @@ or
 @user.is_owner_of?(@article) && @user.has_role?(:articles, :edit) #=> true | false
 ```
 
+#### `owner_required` method and controllers
+
+Method <a href="https://github.com/TheRole/the_role_api/blob/master/app/controllers/concerns/the_role/controller.rb#L20">owner_required</a> based on method `owner?(object)` and variable `@owner_check_object`
+
+If you want to use your own ownership checking method, you should to overwrite method `owner_required` to meet your needs.
+
+You can do something like this:
+
+Model
+
+```ruby
+class User < ActiveRecord::Base
+  include TheRole::Api::User
+
+  def is_owner_of?(object)
+    # code
+  end
+
+  has_many :pages
+end
+```
+
+Application controller
+
+```ruby
+class ApplicationController < ActionController::Base
+  include TheRole::Controller
+
+  private
+
+  def for_ownership_check obj
+    @owner_check_object = obj
+  end
+
+  def my_special_ownership_check
+    role_access_denied unless current_user.try(:is_owner_of?, @owner_check_object)
+  end
+end
+```
+
+and after in Pages controller
+
+```ruby
+class PagesController < ApplicationController
+  before_action :login_required, except: [:index, :show]
+  before_action :role_required,  except: [:index, :show]
+
+  before_action :set_page,                   only: [:edit, :update, :destroy]
+  before_action :my_special_ownership_check, only: [:edit, :update, :destroy]
+
+  # ... code ...
+
+  private
+
+  def set_page
+    @page = Page.find params[:id]
+    for_ownership_check(@page)
+  end
+end
+```
+
 <hr>
 
 [[ Back to TheRole ]](https://github.com/the-teacher/the_role)
