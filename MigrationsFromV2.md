@@ -8,26 +8,26 @@
 
 BEFORE
 
-```
+```ruby
 gem 'the_role', '~> 2.X'
 ```
 
 or
 
-```
+```ruby
 gem 'the_role', '~> 2.X'
 gem 'the_role_bootstrap3_ui'
 ```
 
 AFTER
 
-```
+```ruby
 gem 'the_role', '~> 3.0'
 ```
 
 or
 
-```
+```ruby
 gem 'the_role_api', '~> 3.0'
 gem 'the_role_management_panel', '~> 3.0'
 ```
@@ -54,7 +54,7 @@ after
 
 before
 
-```
+```ruby
 class User < ActiveRecord::Base
   include TheRole::User
 end
@@ -62,7 +62,7 @@ end
 
 after
 
-```
+```ruby
 class User < ActiveRecord::Base
   include TheRole::Api::User
 end
@@ -70,7 +70,7 @@ end
 
 #### Change `Role` model
 
-```
+```ruby
 class Role < ActiveRecord::Base
   include TheRole::Role
 end
@@ -78,7 +78,7 @@ end
 
 after
 
-```
+```ruby
 class Role < ActiveRecord::Base
   include TheRole::Api::Role
 end
