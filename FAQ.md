@@ -66,7 +66,7 @@ Moderator of pages is owner of any page.
 
 User is owner of objects, when **Object#user_id == User#id**.
 
-#### What does semantic mean?
+#### What does it mean semantic?
 
 Semantic - the science of meaning. Humans should be able to quickly understand what is happening in a role system.
 
