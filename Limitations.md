@@ -45,6 +45,8 @@ But TheRole convert hashes into JSON string and store it into database with plai
 
 TheRole uses this approach because it requires less of code. And it makes maintaining simpler.
 
+**For PostgresSQL users**: [how to use native :json column](https://github.com/TheRole/docs/blob/master/forPostgresSQLusers.md)
+
 ### Few words about Ownership
 
 [Few words about Ownership](https://github.com/TheRole/docs/blob/master/Ownership.md)
