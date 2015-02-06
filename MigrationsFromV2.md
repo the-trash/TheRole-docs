@@ -117,6 +117,15 @@ TheRole.configure do |config|
 end
 ```
 
+<hr>
+
+### For PostgresSQL users
+
+[how to use native :json column](https://github.com/TheRole/docs/blob/master/forPostgresSQLusers.md)
+
+<hr>
+
+
 #### Bundle && restart
 
 ```sh
