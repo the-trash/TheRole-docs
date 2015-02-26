@@ -10,7 +10,7 @@ You have to know about them before using of TheRole:
 
 0. [User has only one Role](https://github.com/TheRole/docs/blob/master/Limitations.md#user-has-only-one-role)
 0. [Only `User` model supported](https://github.com/TheRole/docs/blob/master/Limitations.md#only-user-model-supported)
-0. [Based on `curent_user` method](https://github.com/TheRole/docs/blob/master/Limitations.md#based-on-curent_user-method)
+0. [Based on `current_user` method](https://github.com/TheRole/docs/blob/master/Limitations.md#based-on-current_user-method)
 0. [Role stored in database as a JSON String](https://github.com/TheRole/docs/blob/master/Limitations.md#role-stored-in-database-as-a-json-string)
 0. [Few words about Ownership](https://github.com/TheRole/docs/blob/master/Ownership.md)
 
@@ -32,9 +32,9 @@ You can't use it with `Account`, `Manager`, `Employer` etc.
 You can improve TheRole with beauty patch.
 If it be really great, I'll add this feature into The Role.
 
-### Based on `curent_user` method
+### Based on `current_user` method
 
-`curent_user` is a most popular name of method associated with logged user. TheRole uses it by default.
+`current_user` is a most popular name of method associated with logged user. TheRole uses it by default.
 There is no ways to use something else. Sorry.
 
 ### Role stored in database as a JSON string
